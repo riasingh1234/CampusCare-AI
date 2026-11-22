@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "APP_ENV": "local",
+    "ALLOWED_ORIGIN": "http://localhost:5173",
+    "JWT_SECRET": "<generate-a-random-string-of-32-or-more-characters>",
+    "JWT_EXPIRY_MINUTES": "60",
+    "AZURE_CLIENT_ID": "",
+    "SQL_SERVER": "<your-sql-server-name>.database.windows.net",
+    "SQL_DATABASE": "<your-database-name>",
+    "BLOB_ACCOUNT_URL": "https://<your-storage-account>.blob.core.windows.net",
+    "BLOB_CONTAINER_NAME": "complaint-images",
+    "AI_ENABLED": "false",
+    "AI_AUTH_MODE": "entra",
+    "AI_FOUNDRY_PROJECT_ENDPOINT": "https://<your-foundry-resource>.services.ai.azure.com/api/projects/<your-project-name>",
+    "AI_FOUNDRY_DEPLOYMENT": "<your-model-deployment-name>",
+    "AI_FOUNDRY_RESOURCE_ENDPOINT": "",
+    "AI_FOUNDRY_API_KEY": "",
+    "SPEECH_ENABLED": "false",
+    "SPEECH_REGION": "<your-speech-region, for example centralindia>",
+    "SPEECH_KEY": ""
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "http://localhost:5173"
+  }
+}

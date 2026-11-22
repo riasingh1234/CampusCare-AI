@@ -1,0 +1,10 @@
+# Install with:  pip install -r requirements.txt     (Python 3.12)
+azure-functions
+azure-identity            # DefaultAzureCredential (CLI login locally, managed identity in Azure)
+azure-storage-blob        # Blob Storage client + temporary read links
+pyodbc                    # Azure SQL (also needs Microsoft ODBC Driver 18 installed on the machine)
+azure-ai-projects>=2.3.0  # Microsoft Foundry SDK (Entra ID sign-in only)
+openai                    # OpenAI-compatible client returned by the Foundry SDK; also used for the optional API-key fallback
+argon2-cffi               # password hashing
+PyJWT                     # signed login tokens
+# Azure AI Speech needs no Python package: the backend only requests a short-lived token with the standard library.

@@ -1,0 +1,31 @@
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+local.settings.json
+*.pem
+*.pfx
+
+# Node / frontend
+node_modules/
+frontend/dist/
+.vite/
+npm-debug.log*
+
+# Python / Azure Functions
+.venv/
+venv/
+__pycache__/
+*.pyc
+.python_packages/
+.azurite/
+__azurite_db_*.json
+__blobstorage__/
+__queuestorage__/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
